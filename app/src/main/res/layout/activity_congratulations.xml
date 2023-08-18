@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO (STEP 5: Design the result activity layout.)-->
+<!--START-->
+<!--1. Add the trophy image to the drawable folders.-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".CongratulationsActivity">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:text = "Results:"/>
+
+        <ImageView
+            android:id="@+id/iv_trophy"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/trophy_image"
+            tools:src="@drawable/ic_trophy"/>
+
+        <TextView
+            android:id="@+id/tv_congratulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="Congratulations!" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:text = "Username"/>
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#3AF405"
+            tools:text = "Your Score is 9 out of 10."/>
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/finish"
+            android:textColor="#6E29E8"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyQuizApplication</string>
+    <string name="App_Title">Quiz Application</string>
+    <string name="_welcome">Welcome</string>
+    <string name="main_promt">Please enter your name</string>
+    <string name="_hint">e.g John</string>
+    <string name="_buttonText">Start</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="finish">FINISH</string>
+    <string name="trophy_image">trophy_Image</string>
+</resources>
